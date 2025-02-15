@@ -1,0 +1,206 @@
+[18159][      debug] Sqlite write daemon: starting up
+[18159][      debug] Sqlite write daemon: set up complete, waiting for connections
+[18160][      debug] Sqlite write daemon: process starting, pid= 18160
+[18159][environment] CWD = /home/alpha-magus/eclipse-workspace/DataStructuresAndAlgorithms/src/exercises
+[18159][environment] No .inferconfig file found
+[18159][environment] Project root = /home/alpha-magus/eclipse-workspace/DataStructuresAndAlgorithms/src/exercises
+[18159][environment] INFER_ARGS =   @/tmp/args.tmp.e3bd31 --progress-bar-style multiline
+[18159][environment] command line arguments:   infer --cost-only -- javac
+[18159][environment]                           PrimeNumbersCalculator.java
+[18159][environment] Available memory at startup: 12358 MB
+[18159][environment] Active checkers: bufferoverrun-analysis (C/C++/ObjC, Java), purity-analysis (C/C++/ObjC, Java), cost (C/C++/ObjC, Hack, Java)
+[18159][environment] Scheduler: restart
+[18159][environment] Cores used: 12
+[18159][environment] Infer version v1.2.0
+[18159][environment] Copyright 2009 - present Facebook. All Rights Reserved.
+[18159][environment] 
+[18159][   progress] Capturing in javac mode...
+[18159][      debug] Current working directory: '/home/alpha-magus/eclipse-workspace/DataStructuresAndAlgorithms/src/exercises'
+[18159][      debug] Trying to execute: javac '-J-Duser.language=en' '@/home/alpha-magus/eclipse-workspace/DataStructuresAndAlgorithms/src/exercises/infer-out/tmp/javac_args.tmp.7a1bd2' 2>'/home/alpha-magus/eclipse-workspace/DataStructuresAndAlgorithms/src/exercises/infer-out/tmp/javac.tmp.1d80c2.out'
+[18159][      debug] *** Success. Logs:
+[18159][      debug] Translating 1 source files (1 classes)
+[18159][      debug] Global tenv size global_tenv_size_mb: 0
+[18159][      debug] done capturing all files
+[18159][      debug] GC stats for capture:
+[18159][      debug]   minor_words: 1.7996e+06
+[18159][      debug]   promoted_words: 257914
+[18159][      debug]   major_words: 274859
+[18159][      debug]   minor_collections: 1
+[18159][      debug]   major_collections: 0
+[18159][      debug]   compactions: 0
+[18159][      debug]   top_heap_words: 1157632
+[18159][      debug]   
+[18159][environment] Parallel jobs: 12
+[18159][   progress] Found 1 source file to analyze in /home/alpha-magus/eclipse-workspace/DataStructuresAndAlgorithms/src/exercises/infer-out
+[18194][   progress] PrimeNumbersCalculator.java starting
+[18193][   progress] Analysing block of 200 procs, starting with PrimeNumbersCalculator.<init>()
+[18191][   progress] Analysing block of 200 procs, starting with void PrimeNumbersCalculator.printArray(int[])
+[18192][   progress] Analysing block of 200 procs, starting with boolean PrimeNumbersCalculator.divisableByTwoOrFive(int)
+[18189][   progress] Analysing block of 200 procs, starting with boolean PrimeNumbersCalculator.divisibleByPrimes(int,int[])
+[18190][   progress] Analysing block of 200 procs, starting with void PrimeNumbersCalculator.main(String[])
+[18194][   progress] PrimeNumbersCalculator.java DONE
+[18195][   progress] PrimeNumbersCalculator.java starting
+[18194][   progress] Analysing block of 200 procs, starting with void PrimeNumbersCalculator.main(String[])
+[18195][   progress] PrimeNumbersCalculator.java DONE
+[18192][   progress] PrimeNumbersCalculator.java starting
+[18192][   progress] PrimeNumbersCalculator.java DONE
+[18159][      debug] Backend stats:
+[18159][      debug]   summary_file_try_load= 91
+[18159][      debug]   summary_read_from_disk= 11
+[18159][      debug]   summary_cache_hits= 17 (15%)
+[18159][      debug]   summary_cache_misses= 91
+[18159][      debug]   ondemand_procs_analyzed= 5
+[18159][      debug]   proc_locker_lock_time_user= 0.00036800
+[18159][      debug]   proc_locker_lock_time_sys= 0.00096700
+[18159][      debug]   proc_locker_lock_time_wall= 0.00135555
+[18159][      debug]   proc_locker_lock_time_oncpu_pct= 98%
+[18159][      debug]   proc_locker_unlock_time_user= 0.00031300
+[18159][      debug]   proc_locker_unlock_time_sys= 0.00014500
+[18159][      debug]   proc_locker_unlock_time_wall= 0.00047081
+[18159][      debug]   proc_locker_unlock_time_oncpu_pct= 97%
+[18159][      debug]   restart_scheduler_useful_time_user= 0.27856300
+[18159][      debug]   restart_scheduler_useful_time_sys= 0.04705700
+[18159][      debug]   restart_scheduler_useful_time_wall= 0.63351045
+[18159][      debug]   restart_scheduler_useful_time_oncpu_pct= 51%
+[18159][      debug]   restart_scheduler_total_time_user= 0.28256600
+[18159][      debug]   restart_scheduler_total_time_sys= 0.04921800
+[18159][      debug]   restart_scheduler_total_time_wall= 0.63973947
+[18159][      debug]   restart_scheduler_total_time_oncpu_pct= 52%
+[18159][      debug]   pulse_aliasing_contradictions= 0
+[18159][      debug]   pulse_args_length_contradictions= 0
+[18159][      debug]   pulse_captured_vars_length_contradictions= 0
+[18159][      debug]   pulse_disjuncts_dropped= 0
+[18159][      debug]   pulse_interrupted_loops= 0
+[18159][      debug]   pulse_summaries_contradictions= 0
+[18159][      debug]   pulse_summaries_unsat_for_caller= 0
+[18159][      debug]   pulse_summaries_unsat_for_caller_percent= 0
+[18159][      debug]   pulse_summaries_with_some_unreachable_nodes= 0
+[18159][      debug]   pulse_summaries_with_some_unreachable_nodes_percent= 0
+[18159][      debug]   pulse_summaries_with_some_unreachable_returns= 0
+[18159][      debug]   pulse_summaries_with_some_unreachable_returns_percent= 0.0%
+[18159][      debug]   pulse_summaries_count= []
+[18159][      debug]   pulse_summaries_total_disjuncts= 0
+[18159][      debug]   pulse_summaries_count_0_continue_program= 0
+[18159][      debug]   pulse_summaries_count_0_percent= 0
+[18159][      debug]   topl_reachable_calls= 0
+[18159][      debug]   timeouts= 0
+[18159][      debug]   timings= timings for bufferoverrun-analysis:
+[18159][      debug]     p10: 0.000508s p20: 0.000625s p30: 0.000781s p40: 0.000978s
+[18159][      debug]     p50: 0.001950s p60: 0.002973s p70: 0.003470s p80: 0.003877s
+[18159][      debug]     p90: 0.004194s p95: 0.004247s p96: 0.004247s p97: 0.004247s
+[18159][      debug]     p98: 0.004247s p99: 0.004247s p99.9: 0.004247s p99.99: 0.004247s 
+[18159][      debug]   timings for cost:
+[18159][      debug]     p10: 0.000012s p20: 0.000349s p30: 0.000686s p40: 0.001498s
+[18159][      debug]     p50: 0.002310s p60: 0.003417s p70: 0.004523s p80: 0.005104s
+[18159][      debug]     p90: 0.005685s p95: 0.005685s p96: 0.005685s p97: 0.005685s
+[18159][      debug]     p98: 0.005685s p99: 0.005685s p99.9: 0.005685s p99.99: 0.005685s 
+[18159][      debug]   timings for purity-analysis:
+[18159][      debug]     p10: 0.000074s p20: 0.000185s p30: 0.000296s p40: 0.000414s
+[18159][      debug]     p50: 0.000532s p60: 0.000637s p70: 0.000742s p80: 0.001390s
+[18159][      debug]     p90: 0.002039s p95: 0.002039s p96: 0.002039s p97: 0.002039s
+[18159][      debug]     p98: 0.002039s p99: 0.002039s p99.9: 0.002039s p99.99: 0.002039s 
+[18159][      debug]   timings for preanalysis:
+[18159][      debug]     p10: 0.005464s p20: 0.031810s p30: 0.045154s p40: 0.045495s
+[18159][      debug]     p50: 0.046158s p60: 0.047557s p70: 0.052310s p80: 0.056028s
+[18159][      debug]     p90: 0.058709s p95: 0.059156s p96: 0.059156s p97: 0.059156s
+[18159][      debug]     p98: 0.059156s p99: 0.059156s p99.9: 0.059156s p99.99: 0.059156s 
+[18159][      debug]   
+[18159][      debug]   longest_proc_duration_heap= [
+[18159][      debug]   136786us: PrimeNumbersCalculator.java: void PrimeNumbersCalculator.printArray(int[])
+[18159][      debug]   136700us: PrimeNumbersCalculator.java: PrimeNumbersCalculator.<init>()
+[18159][      debug]   136358us: PrimeNumbersCalculator.java: boolean PrimeNumbersCalculator.divisibleByPrimes(int,int[])
+[18159][      debug]   136312us: PrimeNumbersCalculator.java: boolean PrimeNumbersCalculator.divisableByTwoOrFive(int)
+[18159][      debug]   86501us: PrimeNumbersCalculator.java: void PrimeNumbersCalculator.main(String[])
+[18159][      debug]   ]
+[18159][      debug]   process_times_user= 0.28516800
+[18159][      debug]   process_times_sys= 0.05412400
+[18159][      debug]   process_times_wall= 3.08623016
+[18159][      debug]   process_times_oncpu_pct= 11%
+[18159][      debug]   useful_times_user= 0.28459200
+[18159][      debug]   useful_times_sys= 0.05370100
+[18159][      debug]   useful_times_wall= 0.64626540
+[18159][      debug]   useful_times_oncpu_pct= 52%
+[18159][      debug]   spec_store_times_user= 0.24893100
+[18159][      debug]   spec_store_times_sys= 0.00721400
+[18159][      debug]   spec_store_times_wall= 0.56387919
+[18159][      debug]   spec_store_times_oncpu_pct= 45%
+[18159][      debug]   
+[18159][      debug] GC stats for backend_stats.gc_stats_add.:
+[18159][      debug]   minor_words: 3.72719e+06
+[18159][      debug]   promoted_words: 557045
+[18159][      debug]   major_words: 579803
+[18159][      debug]   minor_collections: 2
+[18159][      debug]   major_collections: 0
+[18159][      debug]   compactions: 0
+[18159][      debug]   top_heap_words: 14640128
+[18159][      debug]   
+[18159][      debug] GC stats for backend_stats.gc_stats_max.:
+[18159][      debug]   minor_words: 1.17465e+06
+[18159][      debug]   promoted_words: 292399
+[18159][      debug]   major_words: 295103
+[18159][      debug]   minor_collections: 1
+[18159][      debug]   major_collections: 0
+[18159][      debug]   compactions: 0
+[18159][      debug]   top_heap_words: 1531904
+[18159][      debug]   
+[18159][      debug] Average over 12 processes
+[18159][      debug] GC stats for backend_stats.gc_stats_average.:
+[18159][      debug]   minor_words: 310599
+[18159][      debug]   promoted_words: 46420.4
+[18159][      debug]   major_words: 48316.9
+[18159][      debug]   minor_collections: 0
+[18159][      debug]   major_collections: 0
+[18159][      debug]   compactions: 0
+[18159][      debug]   top_heap_words: 1220010
+[18159][      debug]   
+[18159][      debug] Analysis phase finished in 285ms
+[18159][      debug] backend_stats.scheduler_process_analysis_time_user= 0.02433400
+[18159][      debug] backend_stats.scheduler_process_analysis_time_sys= 0.03722100
+[18159][      debug] backend_stats.scheduler_process_analysis_time_wall= 0.28426480
+[18159][      debug] backend_stats.scheduler_process_analysis_time_oncpu_pct= 22%
+[18159][      debug] GC stats for analysis_scheduler:
+[18159][      debug]   minor_words: 704758
+[18159][      debug]   promoted_words: 1949
+[18159][      debug]   major_words: 316969
+[18159][      debug]   minor_collections: 1
+[18159][      debug]   major_collections: 2
+[18159][      debug]   compactions: 1
+[18159][      debug]   top_heap_words: 1531904
+[18159][      debug]   
+[18159][      debug] GC stats for report:
+[18159][      debug]   minor_words: 49421
+[18159][      debug]   promoted_words: 0
+[18159][      debug]   major_words: 514
+[18159][      debug]   minor_collections: 0
+[18159][      debug]   major_collections: 0
+[18159][      debug]   compactions: 0
+[18159][      debug]   top_heap_words: 1531904
+[18159][      debug]   
+[18159][      debug] GC stats for main_process_full:
+[18159][      debug]   minor_words: 5.52233e+06
+[18159][      debug]   promoted_words: 1.08649e+06
+[18159][      debug]   major_words: 1.46434e+06
+[18159][      debug]   minor_collections: 11
+[18159][      debug]   major_collections: 3
+[18159][      debug]   compactions: 1
+[18159][      debug]   top_heap_words: 1531904
+[18159][      debug]   
+[18160][      debug] Detected 0 spec overwrites.
+[18160][      debug] Sqlite write daemon: terminating
+[18159][      debug] Sqlite write daemon: waiting for process 18160 to finish
+[18160][      debug] dbwriter.useful_time_user= 0.06838600
+[18160][      debug] dbwriter.useful_time_sys= 0.01099300
+[18160][      debug] dbwriter.useful_time_wall= 0.18769853
+[18160][      debug] dbwriter.useful_time_oncpu_pct= 42%
+[18160][      debug] dbwriter.store_sql_user= 0.00027100
+[18160][      debug] dbwriter.store_sql_sys= 0.00044500
+[18160][      debug] dbwriter.store_sql_wall= 0.00072590
+[18160][      debug] dbwriter.store_sql_oncpu_pct= 99%
+[18160][      debug] dbwriter.store_sql_pct= 1%
+[18160][      debug] dbwriter.total_time_user= 0.07122600
+[18160][      debug] dbwriter.total_time_sys= 0.01632200
+[18160][      debug] dbwriter.total_time_wall= 0.82855037
+[18160][      debug] dbwriter.total_time_oncpu_pct= 11%
+[18160][      debug] [18159][      debug] Sqlite write daemon: process 18160 terminated
+[18159][     result] 
+  No issues found  
